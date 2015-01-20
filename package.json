@@ -1,6 +1,6 @@
 {
   "name": "pc-info",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Get general information regarding computer status such as memory utilization, hardd drive space, number of core, etc",
   "main": "./lib/index.js",
   "scripts": {
@@ -10,16 +10,17 @@
     "hard drive",
     "pc",
     "memory",
-    "free space",
+    "free space"
   ],
-  "repository":{
-    "type":"git",
-    "url":"https://github.com/pirumpi/pc-info.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pirumpi/pc-info.git"
   },
   "author": "Carlos Martin",
   "license": "MIT",
   "dependencies": {
     "get": "^1.4.0",
+    "getmac": "^1.0.6",
     "promise": "^6.1.0"
   }
 }
