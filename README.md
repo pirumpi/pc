@@ -50,11 +50,6 @@ Methods
 pc.tmpDir() //return { location: 'string' }
 
 ```
-**cpu** Returns an  objects containing information about each CPU/core installed.
-```js
-pc.cpu() //return { model: 'string', speed: number, threads: number };
-
-```
 **NetworkInterfaces** Get a list of network interfaces
 ```js
   pc.networkInterfaces();
@@ -77,6 +72,24 @@ pc.cpu() //return { model: 'string', speed: number, threads: number };
 I like to define an error handler function to deal with my promises errors,
 ```js
   var errorHandler = function(err){ console.log(err); throw err; };
+```
+**cpu** Returns an  objects containing information about each CPU/core installed.
+```js
+  pc.cpu().then(function(cpu){
+    console.log(cpu);
+  }, errorHandler);
+  /*return {
+      deviceId: 'string',
+      status: number,
+      currentClockSpeed: number,
+      currentVoltage: number,
+      loadPercentage: number,
+      maxClockSpeed: number,
+      name: 'string',
+      numberOfCores: number,
+      processorId: 'string'
+    }*/
+
 ```
 
 **Public IP** Return the public IP of the computer. **Internet connection is required to call this method.**
