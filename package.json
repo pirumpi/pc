@@ -1,6 +1,6 @@
 {
   "name": "pc",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Get general information regarding computer status such as memory utilization, hardd drive space, number of core, etc",
   "main": "./lib/index.js",
   "scripts": {
