@@ -1,10 +1,10 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
-1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
 1 verbose cli   'publish' ]
 2 info using npm@1.4.28
-3 info using node@v0.10.35
-4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
 5 verbose publish [ '.' ]
 6 verbose cache add [ '.', null ]
 7 verbose cache add name=undefined spec="." args=[".",null]
@@ -21,50 +21,87 @@
 8 verbose parsed url   path: '.',
 8 verbose parsed url   href: '.' }
 9 silly lockFile 3a52ce78- .
-10 verbose lock . C:\Users\Administrator\AppData\Roaming\npm-cache\3a52ce78-.lock
-11 verbose tar pack [ 'C:\\Users\\Administrator\\AppData\\Roaming\\npm-cache\\pc-info\\0.0.1\\package.tgz',
+10 verbose lock . C:\Users\Carlos\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\Carlos\\AppData\\Roaming\\npm-cache\\pc\\0.0.1\\package.tgz',
 11 verbose tar pack   '.' ]
-12 verbose tarball C:\Users\Administrator\AppData\Roaming\npm-cache\pc-info\0.0.1\package.tgz
+12 verbose tarball C:\Users\Carlos\AppData\Roaming\npm-cache\pc\0.0.1\package.tgz
 13 verbose folder .
-14 info prepublish pc-info@0.0.1
+14 info prepublish pc@0.0.1
 15 silly lockFile 1f1177db-tar tar://.
-16 verbose lock tar://. C:\Users\Administrator\AppData\Roaming\npm-cache\1f1177db-tar.lock
-17 silly lockFile 28694c94--cache-pc-info-0-0-1-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\pc-info\0.0.1\package.tgz
-18 verbose lock tar://C:\Users\Administrator\AppData\Roaming\npm-cache\pc-info\0.0.1\package.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\28694c94--cache-pc-info-0-0-1-package-tgz.lock
+16 verbose lock tar://. C:\Users\Carlos\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile 5b1f91a8-g-npm-cache-pc-0-0-1-package-tgz tar://C:\Users\Carlos\AppData\Roaming\npm-cache\pc\0.0.1\package.tgz
+18 verbose lock tar://C:\Users\Carlos\AppData\Roaming\npm-cache\pc\0.0.1\package.tgz C:\Users\Carlos\AppData\Roaming\npm-cache\5b1f91a8-g-npm-cache-pc-0-0-1-package-tgz.lock
 19 silly lockFile 1f1177db-tar tar://.
 20 silly lockFile 1f1177db-tar tar://.
-21 silly lockFile 28694c94--cache-pc-info-0-0-1-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\pc-info\0.0.1\package.tgz
-22 silly lockFile 28694c94--cache-pc-info-0-0-1-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\pc-info\0.0.1\package.tgz
-23 silly lockFile 965d1b5a--npm-cache-pc-info-0-0-1-package C:\Users\Administrator\AppData\Roaming\npm-cache\pc-info\0.0.1\package
-24 verbose lock C:\Users\Administrator\AppData\Roaming\npm-cache\pc-info\0.0.1\package C:\Users\Administrator\AppData\Roaming\npm-cache\965d1b5a--npm-cache-pc-info-0-0-1-package.lock
-25 silly lockFile 965d1b5a--npm-cache-pc-info-0-0-1-package C:\Users\Administrator\AppData\Roaming\npm-cache\pc-info\0.0.1\package
-26 silly lockFile 965d1b5a--npm-cache-pc-info-0-0-1-package C:\Users\Administrator\AppData\Roaming\npm-cache\pc-info\0.0.1\package
+21 silly lockFile 5b1f91a8-g-npm-cache-pc-0-0-1-package-tgz tar://C:\Users\Carlos\AppData\Roaming\npm-cache\pc\0.0.1\package.tgz
+22 silly lockFile 5b1f91a8-g-npm-cache-pc-0-0-1-package-tgz tar://C:\Users\Carlos\AppData\Roaming\npm-cache\pc\0.0.1\package.tgz
+23 silly lockFile 0f70d819-aming-npm-cache-pc-0-0-1-package C:\Users\Carlos\AppData\Roaming\npm-cache\pc\0.0.1\package
+24 verbose lock C:\Users\Carlos\AppData\Roaming\npm-cache\pc\0.0.1\package C:\Users\Carlos\AppData\Roaming\npm-cache\0f70d819-aming-npm-cache-pc-0-0-1-package.lock
+25 silly lockFile 0f70d819-aming-npm-cache-pc-0-0-1-package C:\Users\Carlos\AppData\Roaming\npm-cache\pc\0.0.1\package
+26 silly lockFile 0f70d819-aming-npm-cache-pc-0-0-1-package C:\Users\Carlos\AppData\Roaming\npm-cache\pc\0.0.1\package
 27 silly lockFile 3a52ce78- .
 28 silly lockFile 3a52ce78- .
-29 silly publish { name: 'pc-info',
+29 silly publish { name: 'pc',
 29 silly publish   version: '0.0.1',
 29 silly publish   description: 'Get general information regarding computer status such as memory utilization, hardd drive space, number of core, etc',
 29 silly publish   main: './lib/index.js',
 29 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
 29 silly publish   keywords: [ 'hard drive', 'pc', 'memory', 'free space' ],
-29 silly publish   repository: { type: 'git', url: 'https://github.com/pirumpi/pc-info.git' },
+29 silly publish   repository: { type: 'git', url: 'https://github.com/pirumpi/pc.git' },
 29 silly publish   author: { name: 'Carlos Martin' },
 29 silly publish   license: 'MIT',
-29 silly publish   dependencies: { get: '^1.4.0', promise: '^6.1.0' },
-29 silly publish   readme: 'pc-info\r\n=======\r\n\r\nAn application that provides specific information about a computer.\r\n\r\nInformation Available\r\n----------------------\r\n\r\n- Memory\r\n- CPU\r\n- Hostname\r\n- Uptime\r\n- NetworkInterfaces\r\n- Temporary Directory\r\n- **Public IP**\r\n- **Drives**\r\n- **Users**\r\n\r\n',
+29 silly publish   dependencies: { get: '^1.4.0', getmac: '^1.0.6', promise: '^6.1.0' },
+29 silly publish   readme: 'PC\r\n=======\r\n\r\nAn application that provides information about a computer. Such as available memory, installed application, drives spaces, etc. It is only supporting Windows right now but Linux and Mac support are coming soon.\r\n\r\n##Install\r\n```js\r\n    npm install pc\r\n```\r\n\r\nInformation Available\r\n----------------------\r\n\r\n- Memory\r\n- CPU\r\n- Hostname\r\n- Uptime\r\n- NetworkInterfaces\r\n- Temporary Directory\r\n- **Public IP**\r\n- **Drives**\r\n- **Users**\r\n- **MAC**\r\n- **Programs**\r\n- **Share**\r\n- **More coming soon**\r\n\r\nMethods\r\n--------\r\n**Memory** Return computer\'s available memory\r\n```js\r\n  var pc = require(\'pc\');\r\n\r\n  pc.memory(); //return  { free: number, total: number }\r\n\r\n```\r\n\r\n**Hostname** Return the computer\'s hostname\r\n```js\r\n  pc.hostname(); //return { name: \'string\' }\r\n```\r\n\r\n**Uptime** Return the system uptime in seconds\r\n```js\r\n  pc.uptime() //return { time: \'string\' }\r\n\r\n```\r\n**tmpDir** Returns the operating system\'s default directory for temp files.\r\n```js\r\npc.tmpDir() //return { location: \'string\' }\r\n\r\n```\r\n**cpu** Returns an  objects containing information about each CPU/core installed.\r\n```js\r\npc.cpu() //return { model: \'string\', speed: number, threads: number };\r\n\r\n```\r\n**NetworkInterfaces** Get a list of network interfaces\r\n```js\r\n  pc.networkInterfaces();\r\n  /*\r\n    { lo0:\r\n    [ { address: \'::1\', family: \'IPv6\', internal: true },\r\n    { address: \'fe80::1\', family: \'IPv6\', internal: true },\r\n    { address: \'127.0.0.1\', family: \'IPv4\', internal: true } ],\r\n    en1:\r\n    [ { address: \'fe80::cabc:c8ff:feef:f996\', family: \'IPv6\',\r\n    internal: false },\r\n    { address: \'10.0.1.123\', family: \'IPv4\', internal: false } ],\r\n    vmnet1: [ { address: \'10.99.99.254\', family: \'IPv4\', internal: false } ],\r\n    vmnet8: [ { address: \'10.88.88.1\', family: \'IPv4\', internal: false } ],\r\n    ppp0: [ { address: \'10.2.0.231\', family: \'IPv4\', internal: false } ] }\r\n  */\r\n```\r\n\r\n###The rest of the api return promises\r\nI like to define an error handler function to deal with my promises errors,\r\n```js\r\n  var errorHandler = function(err){ console.log(err); throw err; };\r\n```\r\n\r\n**Public IP** Return the public IP of the computer. **Internet connection is required to call this method.**\r\n```js\r\n  pc.publicIP().then(function(ipInfo){\r\n    console.log(ipInfo); //return { ip: ipaddress }\r\n  }, errorHandler);\r\n```\r\n**Drives** Return an array of object with drive information.\r\n```js\r\n  pc.drives().then(function(drives){\r\n    console.log(drives);\r\n    /*\r\n      [{\r\n        name: \'string\',\r\n        description: \'string\',\r\n        fileSystem: \'string\',\r\n        freeSpace: number,\r\n        size: number,\r\n        volumeName: \'string\'\r\n    }]\r\n    */\r\n  }, errorHandler);\r\n```\r\n**Users** Return an array of existing users in the computer.\r\n```js\r\n  pc.users().then(function(users){\r\n    console.log(users);\r\n    /*\r\n      [{\r\n        name: \'string\',\r\n        accountType: number,\r\n        domain: \'string\',\r\n        fullName: \'string\',\r\n        description: \'string\',\r\n        passwordChangeable: boolean,\r\n        passwordExpires: boolean,\r\n        passwordRequired: boolean,\r\n        sid: \'string\',\r\n        status: \'string\'\r\n      }]\r\n    */\r\n  }, errorHandler);\r\n```\r\n**Mac** Return an array of nic info.\r\n```js\r\npc.mac().then(function(list){\r\n  console.log(list);\r\n  /*\r\n  [{\r\n    interfaceIndex: number,\r\n    name: \'string\',\r\n    macAddress: \'macaddress\',\r\n    manufacturer: \'string\',\r\n    timeOfLastReset: time\r\n  }]\r\n  */\r\n}, errorHandler);\r\n```\r\n**Programs** Return an array with all the applications installed in the computer.\r\n```js\r\npc.programs().then(function(list){\r\n  console.log(list); // [{ name: \'string\' }]\r\n}, errorHandler);\r\n```\r\n**Programs** Return an array with all shares in the computer.\r\n```js\r\npc.share().then(function(list){\r\n  console.log(list);\r\n  /*\r\n  [{\r\n    name: \'string\',\r\n    caption: \'string\',\r\n    path: \'string\',\r\n    type: number\r\n  }]\r\n  */\r\n}, errorHandler);\r\n```\r\nUseful Methods\r\n---------------\r\n**getAll** Retrieve all the information from the computer\r\n```js\r\n  pc.getAll().then(function(everything){\r\n    console.log(everything)\r\n  }, errorHandler);\r\n```\r\n**get** Get an object with selected attributes\r\n```js\r\n  pc.get([\'mac, publicIP, users\']).then(function(results){\r\n    console.log(results); //{ mac: [{object}], publicIP: \'ipaddress\', users: [{object}] }\r\n  }, errorHandler)\r\n```\r\n',
 29 silly publish   readmeFilename: 'README.md',
-29 silly publish   gitHead: '951695ca6606f8fe9c473db7822d45ecf7868162',
-29 silly publish   bugs: { url: 'https://github.com/pirumpi/pc-info/issues' },
-29 silly publish   homepage: 'https://github.com/pirumpi/pc-info',
-29 silly publish   _id: 'pc-info@0.0.1',
-29 silly publish   _shasum: '4b9829fe50bd1658ed58e35ab8230b21838b0a8d',
+29 silly publish   gitHead: '56d28fbe7d7873826a1b9d61913309748c2ec2f9',
+29 silly publish   bugs: { url: 'https://github.com/pirumpi/pc/issues' },
+29 silly publish   homepage: 'https://github.com/pirumpi/pc',
+29 silly publish   _id: 'pc@0.0.1',
+29 silly publish   _shasum: '0e2a2a248a8da99d7fc77b0a087541288d6bb892',
 29 silly publish   _from: '.' }
-30 error need auth auth and email required for publishing
-30 error need auth You need to authorize this machine using `npm adduser`
-31 error System Windows_NT 6.2.9200
-32 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
-33 error cwd C:\Apps\pc-info
-34 error node -v v0.10.35
-35 error npm -v 1.4.28
-36 error code ENEEDAUTH
-37 verbose exit [ 1, true ]
+30 verbose request where is /pc
+31 verbose request registry https://registry.npmjs.org/
+32 verbose request id 11823f9daf616ebb
+33 verbose url raw /pc
+34 verbose url resolving [ 'https://registry.npmjs.org/', './pc' ]
+35 verbose url resolved https://registry.npmjs.org/pc
+36 verbose request where is https://registry.npmjs.org/pc
+37 info trying registry request attempt 1 at 00:24:48
+38 http PUT https://registry.npmjs.org/pc
+39 http 403 https://registry.npmjs.org/pc
+40 verbose headers { date: 'Tue, 20 Jan 2015 07:24:50 GMT',
+40 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+40 verbose headers   'content-type': 'application/json',
+40 verbose headers   'cache-control': 'max-age=60',
+40 verbose headers   'content-length': '8853',
+40 verbose headers   'accept-ranges': 'bytes',
+40 verbose headers   via: '1.1 varnish',
+40 verbose headers   'x-served-by': 'cache-lax1432-LAX',
+40 verbose headers   'x-cache': 'MISS',
+40 verbose headers   'x-cache-hits': '0',
+40 verbose headers   'x-timer': 'S1421738690.331264,VS0,VE76',
+40 verbose headers   'keep-alive': 'timeout=10, max=50',
+40 verbose headers   connection: 'Keep-Alive' }
+41 error publish Failed PUT 403
+42 error Error: forbidden cannot modify pre-existing version: 0.0.1
+42 error old={"name":"pc","version":"0.0.1","description":"Get general information regarding computer status such as memory utilization, hardd drive space, number of core, etc","main":"./lib/index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"keywords":["hard drive","pc","memory","free space"],"repository":{"type":"git","url":"https://github.com/pirumpi/pc.git"},"author":{"name":"Carlos Martin"},"license":"MIT","dependencies":{"get":"^1.4.0","getmac":"^1.0.6","promise":"^6.1.0"},"gitHead":"81ac119740ea8e4e7cdf9ab48b2172964924f42c","bugs":{"url":"https://github.com/pirumpi/pc/issues"},"homepage":"https://github.com/pirumpi/pc","_id":"pc@0.0.1","_shasum":"1b8e1b5870a58b3934569551b1a01461379470a1","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"pirumpi","email":"pirumpi@gmail.com"},"maintainers":[{"name":"pcpcpc123","email":"chaoren.chao@132.com"},{"name":"pirumpi","email":"pirumpi@gmail.com"}],"dist":{"shasum":"1b8e1b5870a58b3934569551b1a01461379470a1","tarball":"http://registry.npmjs.org/pc/-/pc-0.0.1.tgz"}}
+42 error new={"name":"pc","version":"0.0.1","description":"Get general information regarding computer status such as memory utilization, hardd drive space, number of core, etc","main":"./lib/index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"keywords":["hard drive","pc","memory","free space"],"repository":{"type":"git","url":"https://github.com/pirumpi/pc.git"},"author":{"name":"Carlos Martin"},"license":"MIT","dependencies":{"get":"^1.4.0","getmac":"^1.0.6","promise":"^6.1.0"},"readme":"PC\u000d\u000a=======\u000d\u000a\u000d\u000aAn application that provides information about a computer. Such as available memory, installed application, drives spaces, etc. It is only supporting Windows right now but Linux and Mac support are coming soon.\u000d\u000a\u000d\u000a##Install\u000d\u000a```js\u000d\u000a    npm install pc\u000d\u000a```\u000d\u000a\u000d\u000aInformation Available\u000d\u000a----------------------\u000d\u000a\u000d\u000a- Memory\u000d\u000a- CPU\u000d\u000a- Hostname\u000d\u000a- Uptime\u000d\u000a- NetworkInterfaces\u000d\u000a- Temporary Directory\u000d\u000a- **Public IP**\u000d\u000a- **Drives**\u000d\u000a- **Users**\u000d\u000a- **MAC**\u000d\u000a- **Programs**\u000d\u000a- **Share**\u000d\u000a- **More coming soon**\u000d\u000a\u000d\u000aMethods\u000d\u000a--------\u000d\u000a**Memory** Return computer's available memory\u000d\u000a```js\u000d\u000a  var pc = require('pc');\u000d\u000a\u000d\u000a  pc.memory(); //return  { free: number, total: number }\u000d\u000a\u000d\u000a```\u000d\u000a\u000d\u000a**Hostname** Return the computer's hostname\u000d\u000a```js\u000d\u000a  pc.hostname(); //return { name: 'string' }\u000d\u000a```\u000d\u000a\u000d\u000a**Uptime** Return the system uptime in seconds\u000d\u000a```js\u000d\u000a  pc.uptime() //return { time: 'string' }\u000d\u000a\u000d\u000a```\u000d\u000a**tmpDir** Returns the operating system's default directory for temp files.\u000d\u000a```js\u000d\u000apc.tmpDir() //return { location: 'string' }\u000d\u000a\u000d\u000a```\u000d\u000a**cpu** Returns an  objects containing information about each CPU/core installed.\u000d\u000a```js\u000d\u000apc.cpu() //return { model: 'string', speed: number, threads: number };\u000d\u000a\u000d\u000a```\u000d\u000a**NetworkInterfaces** Get a list of network interfaces\u000d\u000a```js\u000d\u000a  pc.networkInterfaces();\u000d\u000a  /*\u000d\u000a    { lo0:\u000d\u000a    [ { address: '::1', family: 'IPv6', internal: true },\u000d\u000a    { address: 'fe80::1', family: 'IPv6', internal: true },\u000d\u000a    { address: '127.0.0.1', family: 'IPv4', internal: true } ],\u000d\u000a    en1:\u000d\u000a    [ { address: 'fe80::cabc:c8ff:feef:f996', family: 'IPv6',\u000d\u000a    internal: false },\u000d\u000a    { address: '10.0.1.123', family: 'IPv4', internal: false } ],\u000d\u000a    vmnet1: [ { address: '10.99.99.254', family: 'IPv4', internal: false } ],\u000d\u000a    vmnet8: [ { address: '10.88.88.1', family: 'IPv4', internal: false } ],\u000d\u000a    ppp0: [ { address: '10.2.0.231', family: 'IPv4', internal: false } ] }\u000d\u000a  */\u000d\u000a```\u000d\u000a\u000d\u000a###The rest of the api return promises\u000d\u000aI like to define an error handler function to deal with my promises errors,\u000d\u000a```js\u000d\u000a  var errorHandler = function(err){ console.log(err); throw err; };\u000d\u000a```\u000d\u000a\u000d\u000a**Public IP** Return the public IP of the computer. **Internet connection is required to call this method.**\u000d\u000a```js\u000d\u000a  pc.publicIP().then(function(ipInfo){\u000d\u000a    console.log(ipInfo); //return { ip: ipaddress }\u000d\u000a  }, errorHandler);\u000d\u000a```\u000d\u000a**Drives** Return an array of object with drive information.\u000d\u000a```js\u000d\u000a  pc.drives().then(function(drives){\u000d\u000a    console.log(drives);\u000d\u000a    /*\u000d\u000a      [{\u000d\u000a        name: 'string',\u000d\u000a        description: 'string',\u000d\u000a        fileSystem: 'string',\u000d\u000a        freeSpace: number,\u000d\u000a        size: number,\u000d\u000a        volumeName: 'string'\u000d\u000a    }]\u000d\u000a    */\u000d\u000a  }, errorHandler);\u000d\u000a```\u000d\u000a**Users** Return an array of existing users in the computer.\u000d\u000a```js\u000d\u000a  pc.users().then(function(users){\u000d\u000a    console.log(users);\u000d\u000a    /*\u000d\u000a      [{\u000d\u000a        name: 'string',\u000d\u000a        accountType: number,\u000d\u000a        domain: 'string',\u000d\u000a        fullName: 'string',\u000d\u000a        description: 'string',\u000d\u000a        passwordChangeable: boolean,\u000d\u000a        passwordExpires: boolean,\u000d\u000a        passwordRequired: boolean,\u000d\u000a        sid: 'string',\u000d\u000a        status: 'string'\u000d\u000a      }]\u000d\u000a    */\u000d\u000a  }, errorHandler);\u000d\u000a```\u000d\u000a**Mac** Return an array of nic info.\u000d\u000a```js\u000d\u000apc.mac().then(function(list){\u000d\u000a  console.log(list);\u000d\u000a  /*\u000d\u000a  [{\u000d\u000a    interfaceIndex: number,\u000d\u000a    name: 'string',\u000d\u000a    macAddress: 'macaddress',\u000d\u000a    manufacturer: 'string',\u000d\u000a    timeOfLastReset: time\u000d\u000a  }]\u000d\u000a  */\u000d\u000a}, errorHandler);\u000d\u000a```\u000d\u000a**Programs** Return an array with all the applications installed in the computer.\u000d\u000a```js\u000d\u000apc.programs().then(function(list){\u000d\u000a  console.log(list); // [{ name: 'string' }]\u000d\u000a}, errorHandler);\u000d\u000a```\u000d\u000a**Programs** Return an array with all shares in the computer.\u000d\u000a```js\u000d\u000apc.share().then(function(list){\u000d\u000a  console.log(list);\u000d\u000a  /*\u000d\u000a  [{\u000d\u000a    name: 'string',\u000d\u000a    caption: 'string',\u000d\u000a    path: 'string',\u000d\u000a    type: number\u000d\u000a  }]\u000d\u000a  */\u000d\u000a}, errorHandler);\u000d\u000a```\u000d\u000aUseful Methods\u000d\u000a---------------\u000d\u000a**getAll** Retrieve all the information from the computer\u000d\u000a```js\u000d\u000a  pc.getAll().then(function(everything){\u000d\u000a    console.log(everything)\u000d\u000a  }, errorHandler);\u000d\u000a```\u000d\u000a**get** Get an object with selected attributes\u000d\u000a```js\u000d\u000a  pc.get(['mac, publicIP, users']).then(function(results){\u000d\u000a    console.log(results); //{ mac: [{object}], publicIP: 'ipaddress', users: [{object}] }\u000d\u000a  }, errorHandler)\u000d\u000a```\u000d\u000a","readmeFilename":"README.md","gitHead":"56d28fbe7d7873826a1b9d61913309748c2ec2f9","bugs":{"url":"https://github.com/pirumpi/pc/issues"},"homepage":"https://github.com/pirumpi/pc","_id":"pc@0.0.1","_shasum":"0e2a2a248a8da99d7fc77b0a087541288d6bb892","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"pirumpi","email":"pirumpi@gmail.com"},"maintainers":[{"name":"pirumpi","email":"pirumpi@gmail.com"}],"dist":{"shasum":"0e2a2a248a8da99d7fc77b0a087541288d6bb892","tarball":"http://registry.npmjs.org/pc/-/pc-0.0.1.tgz"}}: pc
+42 error     at RegClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:308:14)
+42 error     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:246:65)
+42 error     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:236:22)
+42 error     at Request.emit (events.js:98:17)
+42 error     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1142:14)
+42 error     at Request.emit (events.js:117:20)
+42 error     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1096:12)
+42 error     at IncomingMessage.emit (events.js:117:20)
+42 error     at _stream_readable.js:943:16
+42 error     at process._tickCallback (node.js:419:13)
+43 error If you need help, you may report this *entire* log,
+43 error including the npm and node versions, at:
+43 error     <http://github.com/npm/npm/issues>
+44 error System Windows_NT 6.2.9200
+45 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+46 error cwd C:\Apps\pc-info
+47 error node -v v0.10.33
+48 error npm -v 1.4.28
+49 verbose exit [ 1, true ]
